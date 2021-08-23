@@ -1,0 +1,60 @@
+/* navbar icon remove border */
+.remove-bg{
+    border: none;
+    outline: none;
+}
+
+#remove-bg:focus{
+    border: none;
+    outline: none;
+    border: transparent;
+    background: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    .push-down{
+        padding-top: 3rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .change-width{
+        width: 50%;
+        
+    }
+}
+
+.respond{
+    width: 100%;
+    max-width: 100%;
+    height: 4vh;
+    margin: auto;
+    overflow-y: unset;
+    overflow-x: auto;
+}
+
+.pargin{
+    width: 150vw;
+    word-wrap: none;
+}
+
+@media screen and (max-width: 1024px){
+    .pargin{
+        width: 500vw;
+    }
+}
+
+@media screen and (min-width: 486px) {
+    .respond{
+        height: 8vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .push{
+        margin-top: 1rem;
+    }
+}
+
+.size{
+    font-size: 8rem;
+}
